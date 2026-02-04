@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dopis ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="layout">
+    <section class="letter">
+      <h1>Pro mojí Kiki 💌</h1>
+      <p class="intro">
+        Moc moc tě miluju, co víc říct...? snad jenom že jsi:
+      </p>
+
+      <div class="photo-list">
+        <article class="photo-row reveal left">
+          <div class="photo-media">
+            <img src="images/01.jpg" alt="Vzpomínka 1" />
+          </div>
+          <div class="photo-text">
+            <h2>Moje</h2>
+            
+          </div>
+        </article>
+
+        <article class="photo-row reveal right">
+          <div class="photo-media">
+            <img src="images/02.jpg" alt="Vzpomínka 2" />
+          </div>
+          <div class="photo-text">
+            <h2>Chytrá</h2>
+            
+          </div>
+        </article>
+
+        <article class="photo-row reveal left">
+          <div class="photo-media">
+            <img src="images/03.jpg" alt="Vzpomínka 3" />
+          </div>
+          <div class="photo-text">
+            <h2>Hezká</h2>
+            
+          </div>
+        </article>
+
+        <article class="photo-row reveal right">
+          <div class="photo-media">
+            <img src="images/04.jpg" alt="Vzpomínka 4" />
+          </div>
+          <div class="photo-text">
+            <h2>Laskavá</h2>
+            
+          </div>
+        </article>
+
+        <article class="photo-row reveal left">
+          <div class="photo-media">
+            <img src="images/05.jpg" alt="Vzpomínka 5" />
+          </div>
+          <div class="photo-text">
+            <h2>Milá</h2>
+            
+          </div>
+        </article>
+
+        <article class="photo-row reveal right">
+          <div class="photo-media">
+            <img src="images/06.jpg" alt="Vzpomínka 6" />
+          </div>
+          <div class="photo-text">
+            <h2>Jediná</h2>
+            
+          </div>
+        </article>
+
+
+        <article class="photo-row reveal left">
+          <div class="photo-media">
+            <img src="images/07.jpg" alt="Vzpomínka 7" />
+          </div>
+          <div class="photo-text">
+            <h2>Vysněná</h2>
+            
+          </div>
+        </article>
+
+
+
+      </div>
+
+      <article class="chunk reveal finale">
+        <h2>Otázka</h2>
+        <p class="big">Budeš můj Valentýn?</p>
+        <div class="buttons">
+          <button id="yesBtn">ANO</button>
+          <button id="yesBtn2">ANO</button>
+        </div>
+        <div id="imageContainer" class="final-image-wrap" aria-live="polite"></div>
+        <p id="result" class="result" aria-live="polite"></p>
+        <p id="followup" class="result followup" aria-live="polite"></p>
+      </article>
+    </section>
+  </main>
+
+  <audio id="romanticAudio" src="romantic.mp3" preload="auto"></audio>
+  <script src="app.js"></script>
+</body>
+</html>
